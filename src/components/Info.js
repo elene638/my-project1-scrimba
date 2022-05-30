@@ -1,14 +1,14 @@
 import React from "react";
-import Photo from "../images/elo.jpg"
+import Photo from "../images/3X4.jpg"
 
 function Info () {
     return (
-        <div>
+        <div className="main-info" >
             <img alt="Me" src={Photo}/>
-            <h1>Elene Javakhishvili</h1>
-            <h3>Front-end developer</h3>
-            <h4>My.website</h4>
-            <button><i class="fa-solid fa-envelope"></i>Email</button>
+            <h1 className="title" >Elene Javakhishvili</h1>
+            <h3 className="info-text" >Front-end developer</h3>
+            <h4 className="info" >My.website</h4>
+            <button><i className="fa-solid fa-envelope"></i>Email</button>
         </div>
     )
 }

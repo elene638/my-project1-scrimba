@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    
+    background-color: #1A1B21;
+}
+
+img {
+    height: 310px;
+    width: 250px; 
+    border-radius: 60px;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.info-text {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #F3BF99;
+}
+
+.info {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #F5F5F5;
+}
+
+button {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    height: 34px;
+    width: 247px;
+    left: 151px;
+    color: gray;
+    border-radius: 6px;
+    padding: 9px, 13px, 9px, 11px;
+
+}
+
+.fa-envelope {
+    color: #1E1F26;
+    padding-right: 10px;
+}
+
+.about, .interests {
+    display: block;
+    margin: auto;
+    color: #F5F5F5;
+    font-family: Inter;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.about-title, .interests-title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about-text, .interests-text {
+    color: #DCDCDC;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
