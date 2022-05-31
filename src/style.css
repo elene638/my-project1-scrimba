@@ -4,7 +4,7 @@
 }
 
 body {
-    
+    margin: 0px;
     background-color: #1A1B21;
 }
 
@@ -87,4 +87,16 @@ button {
     letter-spacing: 0em;
     text-align: left;
 
+}
+
+.footer {
+    background-color: #161619;
+}
+
+.fa-brands {
+    padding: 10px;
+    color: #918E9B;
+/* left: 164.4993896484375px;
+top: 779.4999389648438px;
+border-radius: 0px; */
 }
